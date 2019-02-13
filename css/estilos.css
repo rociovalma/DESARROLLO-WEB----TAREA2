@@ -1,0 +1,336 @@
+
+body {
+	font-family:Dancing Script;
+	background-color: #02010a;
+
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	max-width: 900px;
+	box-shadow: 0 0 2px #02010a;
+
+}
+
+.container div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 10px;
+}
+
+.container .navegacion> div{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.container .pie-pag> div{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+
+.navegacion
+{
+  color: white;
+	background-color: #5b7989;
+  border-radius:10px 10px 0 0;
+}
+
+.pie-pag
+{
+  background-color: #C6d5c5;
+  border-radius:0 0 10px 10px;
+	font-size: 18px;
+}
+
+.secundario
+{
+	background-color: #d5c75f;
+
+}
+
+.segpag1
+{
+	background-color: #d5c75f;
+
+}
+
+.segpag2
+{
+	background-color: #d5c75f;
+
+}
+
+.navegacion > div h1
+{
+    text-shadow: 0 0 2px #02010a;
+    text-align: center;
+		font-size: 40px;
+		float: left;
+}
+
+.contenedor-principal > div a{
+	float: left;
+	width: 70px;
+	padding: 20px;
+	margin: 0 auto;
+	color: white;
+	font-size: 19px;
+}
+
+
+.pie-pag> div h3{
+	text-align:justify;
+	padding: 10;
+	width: 100%;
+	margin: 40px;
+	display: block;
+}
+.pie-pag> div p{
+	text-align:justify;
+  text-indent: 1cm;
+	padding: auto;
+	width: 100%;
+	margin: auto;
+}
+.pie-pag> div li{
+	text-align:justify;
+  text-indent: 1cm;
+	padding: auto;
+	width: 100%;
+	margin: 0;
+}
+
+
+
+
+.figura1, .figura2{
+	width: 50%;
+}
+
+@media screen and (max-width:480px){
+	.figura1{
+		width: 100%;
+	}
+	.figura2{
+		width: 100%;
+	}
+	.contenedorsec{
+		width: 480px;
+		display:block;
+		margin:auto;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
+}
+
+
+
+
+
+.secundario .contenedorsec > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.segpag1 .contenedorseg1> div {
+	box-align: center;
+	padding: auto;
+	margin:auto;
+}
+
+.segpag2 .contenedorseg2> div {
+	text-align: center;
+	padding: auto;
+	margin: auto;
+}
+
+.secundario .contenedorsec > div p {
+	text-align: center;
+	padding: auto;
+	margin: auto;
+}
+
+.contenedorsec
+{
+  display:flex;
+  flex-direction:row;
+}
+
+.contenedorseg1
+{
+  display:flex;
+  flex-direction:row;
+}
+
+.contenedorseg2
+{
+  display:flex;
+  flex-direction:row;
+}
+
+
+.secundario .contenedorsec > div img{
+	width: 30%;
+	height: auto;
+	display: block;
+	margin: auto;
+  border: 2px solid;
+  box-shadow: 0 0 2px #82c3a6;
+}
+
+
+
+.segpag1 .contenedorseg1 > div img{
+	width: 50%;
+  height: auto;
+	display: block;
+	margin: auto;
+  border: 2px solid;
+  box-shadow: 0 0 2px #82c3a6;
+	}
+
+	.segpag2 .contenedorseg2 > div img{
+		width: 50%;
+	  height: auto;
+		display: block;
+		margin:auto;
+	  border: 2px solid;
+	  box-shadow: 0 0 2px #82c3a6;
+
+	}
+
+
+.secundario .contenedorsec > div p{
+	font-size: 1.5em;
+}
+
+#imagen1 img
+{
+	transition-duration: 0.5s;
+
+}
+#imagen1 img:hover{
+	transform: rotate(10deg);
+}
+
+#imagen2 img
+{
+	transition-duration: 0.5s;
+
+}
+
+#imagen2 img:hover{
+	transform: translate(5px, -20px);
+}
+
+
+/*inicio de div central*/
+
+.central
+{
+	background-color: #82c3a6;
+}
+
+.central .contenedor > div {
+  text-align: center;
+  text-indent: 1cm;
+	padding: 10px;
+	width: 50%;
+	margin: 10px;
+}
+
+.central img{
+	width: 90%;
+	height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+/*inicio de segunda página*/
+
+
+.figura3, .figura4, .figura5{
+	width: 33.33%;
+}
+
+@media (max-width:480px)
+{
+	.figura3{
+		width: 100%;
+		}
+	.figura4{
+			width: 100%;
+			}
+	 .figura5{
+		width: 100%;
+}
+.contenedorseg1{
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+.contenedorseg1 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.figura6, .figura7, .figura8{
+	width: 33.33%;
+}
+
+@media (max-width:480px)
+{
+	.figura6{
+		width: 100%;
+		}
+	.figura7{
+			width: 100%;
+			}
+	 .figura8{
+		width: 100%;
+}
+.contenedorseg2{
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+.contenedorseg2 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+
+
+
+
+#imagen3 img{
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
+}
+
+#imagen4, #imagen6, #imagen8 img{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+
+#imagen5 img{
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
+}
